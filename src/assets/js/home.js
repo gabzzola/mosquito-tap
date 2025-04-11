@@ -1,9 +1,9 @@
 function startGame() {
-    let gameLevel = document.getElementById("gameLevel").value;
+    const difficulty = document.getElementById("difficulty").value;
 
-    if (!gameLevel) {
-        alert("Para começar o jogo você precisa selecionar um nível!");
+    if (!difficulty) {
+        alert("Para começar o jogo você precisa selecionar uma dificuldade!");
         return false;
     }
-    window.location.href = "index.html?level=" + gameLevel;
+    window.location.href = `index.html?difficulty=${difficulty}`;
 }
