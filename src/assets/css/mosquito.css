@@ -1,0 +1,22 @@
+.mosquitoA {
+  width: 70px;
+  height: 70px;
+}
+
+.mosquitoB {
+  width: 90px;
+  height: 90px;
+}
+
+.mosquitoC {
+  width: 110px;
+  height: 110px;
+}
+
+.sideA {
+  transform: scaleX(1);
+}
+
+.sideB {
+  transform: scaleX(-1);
+}

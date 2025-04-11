@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosquito Tap</title>
+
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/mosquito.css">
+</head>
+
+<body onresize="resizeGameArea()">
+    <div class="panel">
+        <div class="lifes">
+            <img src="../assets/img/full_heart.png" id="heart1" alt="Heart 1">
+            <img src="../assets/img/full_heart.png" id="heart2" alt="Heart 2">
+            <img src="../assets/img/full_heart.png" id="heart3" alt="Heart 3">
+        </div>
+
+        <div>
+            Tempo restante: <span id="timer" class="timer"></span>
+        </div>
+    </div>
+
+    <script type="module" src="../assets/js/index.js"></script>
+    <script type="module" src="../assets/js/gameConfig.js"></script>
+</body>
+
+</html>
